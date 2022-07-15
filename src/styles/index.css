@@ -1,12 +1,62 @@
+.container {
+    width: 50%;
+    height: 50%;
+    background-color: antiquewhite;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
 
-/* 
 
-    You can write your own styles here...
+h1 {
+    color: rgb(236, 160, 46);
+    margin-top: 5px;
+   
+}
+.Form {
+    padding-bottom: 10px;
+}
+.form span {
+    font-size: 25px;
+}
+#botonn {
+    margin-right: 25px;
+    background-color: wheat;
+}
+.form button {
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 50px;
+
+}
+
+#button {
+    border-radius: 15px;
+}
+
+.validacion {
+    color: red;
+}
+
+.Lista {
+    width: 80%;
+    margin: 20px auto 0;
+}
+.tarea {
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+}
+#elim {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 150px;
     
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
